@@ -26,11 +26,16 @@
                 <div class="abCont">
                     <div class="peragroup">
                         <p>
-                            Etiam pharetra elit hendrerit nibh tristique, a auctor quam congue.
-                            Aenean facilisis ex magna, at sagittis lectus pulvinar in. Etiam egestas augue erat, 
-                            a dictum mauris tincidunt a. Suspendisse potenti. Phasellus nec erat sit amet nisi varius finibus.
-                            Nunc quis leo sit amet justo accumsan viverra ut vel mauris. Ut blandit iaculis leo ut fringilla.
-                            Fusce mattis ipsum et elit aliquam, a finibus nisl posuere. 
+                        O mezanino sob medida é uma estrutura metálica que pode ser planejada e montada em 
+                        qualquer ambiente sem interferir no espaço já existente. É utilizado quando há uma 
+                        necessidade de melhor aproveitamento do espaço disponível e é frequentemente utilizado 
+                        em diversos segmentos para aproveitamento de espaço de forma prática e com baixo custo. 
+                        Nestas estruturas podemos montar escritórios, estoques e áreas reservadas em residências, 
+                        empresas, casas noturnas, comércios e indústrias.
+                        O mezanino metálico tem sido bastante utilizado em diversos locais, pois traz praticidade e em 
+                        locais pequenos é possível realizar ampliações sem ser preciso realizar a quebra de paredes e
+                        outras obras. Isso faz com que os custos sejam reduzidos, já que não há desperdício de material. 
+                        Com o mezanino é possível montar uma estrutura forte, prática e funcional. 
 
                         </p>
                     </div>
@@ -49,6 +54,27 @@
 <section class="compAboutSecAbPage">
     <div class="container">
         <div class="row"> 
+            <div class="commonSectionTitleIn">
+                <h2>Obras Realizadas com Mezaninos</h2>
+            </div>
+            <div class="col-md-12">
+                <?php if(!empty($works)) { ?>
+                    <?php foreach($works as $value) { ?>
+                        <div class="col-lg-3 col-sm-6 col-xs-12">
+                            <div class="singleGall">
+                            <div class="singGallImg">
+                                <img alt="unimetal mezaninos <?php echo $value["Work"]["title"]?>" src="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"] ?>" >
+                            </div>
+                            <div class="gallHover">
+                                <a class="popUp" href="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"] ?>"><i class="fa fa-search"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                <?php } ?>
+            </div>
         </div>
     </div>
 </section>
+
+
