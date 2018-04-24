@@ -63,7 +63,7 @@
                         <div class="col-lg-3 col-sm-6 col-xs-12">
                             <div class="singleGall">
                             <div class="singGallImg">
-                                <img alt="unimetal mezaninos <?php echo $value["Work"]["title"]?>" src="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"] ?>" >
+                                <img alt="unimetal mezaninos <?php echo $value["Work"]["title"]?>" src="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"] ?>" class="img-responsive" >
                             </div>
                             <div class="gallHover">
                                 <a class="popUp" href="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"] ?>"><i class="fa fa-search"></i></a>
