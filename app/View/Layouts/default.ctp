@@ -104,7 +104,7 @@
                             <li class="has-menu-items">
                                 <a href="#">Serviços</a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">Estruturas Metálicas</a></li>
+                                    <li><a href="<?php echo $this->base?>/Estruturas/index">Estruturas Metálicas</a></li>
                                     <li> <a href="#">Escadas e Guarda-Copos</a> </li>
                                     <li><a href="<?php echo $this->base?>/Mezaninos/index">Mezaninos</a></li>
                                     <li><a href="#">Portões</a></li>
@@ -169,10 +169,8 @@
                         <h3 class="fotterTitle">NAVEGAÇÃO</h3>
                         <ul class="navigation">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Projetos</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Obras</a></li>
-                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="<?php echo $this->base?>/Home/galeria">Obras</a></li>
+                            <li><a href="<?php echo $this->base?>/Contacts/index">Fale Conosco</a></li>
                         </ul>
                     </div>
                 </div>
