@@ -23,10 +23,10 @@
             <div class="col-sm-6">
                 <div class="ContToppera">
                     <p>
-                        Donec eget justo lectus tristique facilisis. Mauris ornare enim ut dui pellentesque,
-                        id volutpat elementum. Mauris nec commodo diam. In auctor mi in ante porttitor,
-                        ut semper metus lacinia. Suspendisse maximus condimentum ipsum nec aliquet. Phasellus
-                        maximus turpis euismod euismod tristique. In sagittis faucibus pulvinar.
+                        A unimetal é a pioneira em construções metálicas. Levando até você o melhor serviço
+                        com estruturas metálicas, portões, mezaninos, coberturas, escadas e guarda-copos.
+                        <br />
+                        Será um prazer entrar em contato com você!
                     </p>
                 </div>
                 <h2 class="commentTitle cont">Contato</h2>
