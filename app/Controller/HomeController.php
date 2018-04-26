@@ -22,7 +22,8 @@ class HomeController extends AppController {
     }
 
     public function galeria(){
-
+        $works = $this->Work->find("all");
+        $this->set(compact("works"));
         $this->set("description","Obras Realizadas");
     }
 }

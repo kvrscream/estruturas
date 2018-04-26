@@ -19,128 +19,23 @@
 <!--gallary start-->
 <section class="gallarySec">
    <div class="container">
-      <div class="row">
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/1.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/1.png"><i class="fa fa-search"></i></a>
-               </div>
+        <?php if(!empty($works)) { ?>
+            <?php foreach($works as $value) { ?>
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <img src="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"]; ?>" class="img-responsive" alt="unimetal obras <?php echo $value["Work"]["title"]; ?>" />
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="abCont">
+                        <div class="peragroup">
+                            <?php echo $value["Work"]["text"]; ?>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/2.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/2.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/3.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/3.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/4.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/4.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/5.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/5.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/6.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/6.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/7.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/7.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/8.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/8.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/9.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/9.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/10.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/10.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/11.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/11.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="singleGall">
-               <div class="singGallImg">
-                  <img alt="" src="<?php echo $this->base ?>/img/gallery/12.png">
-               </div>
-               <div class="gallHover">
-                  <a class="popUp" href="<?php echo $this->base ?>/img/gallery/12.png"><i class="fa fa-search"></i></a>
-               </div>
-            </div>
-         </div>
-      </div>
+            <hr />
+            <?php } ?>
+        <?php } ?>      
    </div>
 </section>
 <!--gallary End-->
