@@ -377,7 +377,51 @@
     </div>
 </section>
 <!--about company End-->
+
 <!--Testomonial2 start-->
+<section class="testomonial2">
+     <div class="container">
+         <div class="row test2head">
+             <div class="col-lg-6">
+                 <div class="commonSectionTitleIn white">
+                     <h2>Obras Realizadas</h2>
+                 </div>
+             </div>
+             <div class="col-lg-6 text-right">
+                 <div class="testmArrow">
+                     <a class="slidePrev" href="#"><i class="fa fa-angle-left"></i></a>
+                     <a class="slideNext" href="#"><i class="fa fa-angle-right"></i></a>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div id="testmH3Carowsel">
+                 <?php if(!empty($works)){ ?>
+                 <?php  foreach ($works as $work) { ?>
+                    <div class="col-lg-12">
+                     <div class="singleTest2">
+                         <div class="testAutho">
+                             <img src="<?php echo $this->base.'/works/obras/'.$product['Product']['category_id'] ?>" alt="">
+                             <a href="<?php echo $this->base.'/works/obras/'.$product['Product']['category_id'] ?>">
+                                <h2><?php echo $work["Category"]["name"]; ?></h2>
+                             </a>                             
+                             <h5><?php echo $work["Category"]["name"]; ?></h5>
+                         </div>
+                         <div class="singTestCont">
+                           <p><?php echo $work["Work"]["title"]; ?></p>
+                         </div>
+                     </div>
+                 </div>                
+                 <?php } ?>
+                 <?php } ?>                 
+             </div>
+         </div>
+     </div>
+ </section>
+ <!--Testomonial2 End-->
+
+<!--Testomonial2 start-->
+<!--
 <section class="testomonial2">
     <div class="container">
         <div class="row test2head">
@@ -416,6 +460,7 @@
         </div>
     </div>
 </section>
+-->
 <!--Testomonial2 End-->
 <!--news start-->
 <!--<section class="news4Sec bggray">

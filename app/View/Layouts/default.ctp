@@ -105,9 +105,9 @@
                                 <a href="#">Serviços</a>
                                 <ul class="sub-menu">
                                     <li><a href="<?php echo $this->base?>/Estruturas/index">Estruturas Metálicas</a></li>
-                                    <li> <a href="#">Escadas e Guarda-Copos</a> </li>
+                                    <li> <a href="<?php echo $this->base?>/Escadas/index">Escadas e Guarda-Copos</a> </li>
                                     <li><a href="<?php echo $this->base?>/Mezaninos/index">Mezaninos</a></li>
-                                    <li><a href="#">Portões</a></li>
+                                    <li><a href="<?php echo $this->base?>/Portoes/index">Portões</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -168,8 +168,13 @@
                     <div class="widget">
                         <h3 class="fotterTitle">NAVEGAÇÃO</h3>
                         <ul class="navigation">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="<?php echo $this->base?>/Home/index">Home</a></li>
+                            <li><a href="<?php echo $this->base?>/Estruturas/index">Estruturas Metálicas</a></li>
+                            <li><a href="<?php echo $this->base?>/Escadas/index">Escadas e Guarda-Copos</a></li>
+                            <li><a href="<?php echo $this->base?>/Mezaninos/index">Mezaninos</a></li>
+                            <li><a href="<?php echo $this->base?>/Portoes/index">Portões</a></li>
                             <li><a href="<?php echo $this->base?>/Home/galeria">Obras</a></li>
+                            <li><a href="<?php echo $this->base?>/Orcamentos/index">Orçamento</a></li>
                             <li><a href="<?php echo $this->base?>/Contacts/index">Fale Conosco</a></li>
                         </ul>
                     </div>
