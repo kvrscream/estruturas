@@ -252,7 +252,7 @@
                                 carga e descarga, etc...
                             </p>
                         </div>
-                        <a href="#" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
+                        <a href="<?php echo $this->base?>/Estruturas" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
                 
@@ -290,7 +290,7 @@
                             necessário o acesso à lugares altos ou abaixo do nível da superfície...
                             </p>
                         </div>
-                        <a href="<?php echo $this->base.'' ?>" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
+                        <a href="<?php echo $this->base?>/Escadas" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 
@@ -308,7 +308,7 @@
                             como mezaninos, sacadas e qualquer outra área que precise de segurança...
                             </p>
                         </div>
-                        <a href="<?php echo $this->base.'' ?>" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
+                        <a href="<?php echo $this->base?>/Escadas" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
 

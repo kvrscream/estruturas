@@ -240,3 +240,25 @@ Request URL: /estruturas/img/uploads/Mezanino-wall.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-04-26 14:21:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /estruturas/
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\lib\Cake\Model\Datasource\DboSource.php(271): Mysql->connect()
+#1 C:\xampp\htdocs\estruturas\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\estruturas\lib\Cake\Model\Model.php(3646): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\estruturas\lib\Cake\Model\Model.php(1162): Model->setDataSource('default')
+#4 C:\xampp\htdocs\estruturas\lib\Cake\Model\Model.php(3673): Model->setSource('products')
+#5 C:\xampp\htdocs\estruturas\lib\Cake\Model\Model.php(3040): Model->getDataSource()
+#6 C:\xampp\htdocs\estruturas\lib\Cake\Model\Model.php(3012): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\estruturas\app\Controller\HomeController.php(16): Model->find('all', Array)
+#8 [internal function]: HomeController->index()
+#9 C:\xampp\htdocs\estruturas\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#10 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#12 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

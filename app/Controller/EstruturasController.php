@@ -12,8 +12,8 @@ class EstruturasController extends AppController {
 
   public function index(){
     $works = $this->Work->find("all", ["conditions" => ["Work.category_id" => 4] ] );
-    $products = $this->Product->find("all", ["conditions" => ["Product.category_id" => 4] ] );
-    $this->set(compact("works", "products"));
+    
+    $this->set(compact("works"));
     $this->set("description","Estruturas Metálicas");
   }
 
