@@ -26,6 +26,11 @@
                     <img src="<?php echo $this->base.'/img/uploads/'.$value["Work"]["image"]; ?>" class="img-responsive" alt="unimetal obras <?php echo $value["Work"]["title"]; ?>" />
                 </div>
                 <div class="col-md-6 col-sm-6">
+                    <div class="commonSectionTitleIn">
+                        <h2>
+                            <?php echo $value["Work"]["title"]; ?>
+                        </h2>
+                    </div>
                     <div class="abCont">
                         <div class="peragroup">
                             <?php echo $value["Work"]["text"]; ?>

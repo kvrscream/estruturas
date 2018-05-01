@@ -320,3 +320,146 @@ Request URL: /unimetal/img/uploads/1901830_620028578083715_660923531_n.jpg
 Stack Trace:
 #0 C:\xampp\htdocs\unimetal\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-05-01 22:41:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/Mezanino-Metalico.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:41:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/Mezanino-wall.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:44:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/COBERTURA%2017.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:44:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/Mezanino-Metalico.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:44:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/Mezanino-wall.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:44:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/1901830_620028578083715_660923531_n.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 22:44:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/2
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 23:07:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/2
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 23:07:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/2
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 23:09:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/2
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 23:09:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /estruturas/img/uploads/2
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-05-01 23:12:23 Error: [MissingActionException] Action HomeController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<pre class=',
+)
+Request URL: /estruturas/Home/%3Cpre%20class=
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-05-01 23:18:42 Error: [MissingActionException] Action HomeController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<pre class=',
+)
+Request URL: /estruturas/Home/%3Cpre%20class=
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-05-01 23:19:22 Error: [MissingActionException] Action HomeController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<pre class=',
+)
+Request URL: /estruturas/Home/%3Cpre%20class=
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-05-01 23:19:23 Error: [MissingActionException] Action HomeController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<pre class=',
+)
+Request URL: /estruturas/Home/%3Cpre%20class=
+Stack Trace:
+#0 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\estruturas\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#2 C:\xampp\htdocs\estruturas\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

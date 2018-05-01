@@ -399,16 +399,16 @@
                  <?php if(!empty($works)){ ?>
                  <?php  foreach ($works as $work) { ?>
                     <div class="col-lg-12">
-                     <div class="singleTest2">
+                     <div class="singleTest">
                          <div class="testAutho">
-                             <img src="<?php echo $this->base.'/works/obras/'.$product['Product']['category_id'] ?>" alt="">
-                             <a href="<?php echo $this->base.'/works/obras/'.$product['Product']['category_id'] ?>">
-                                <h2><?php echo $work["Category"]["name"]; ?></h2>
+                             <img src="<?php echo $this->base.'/img/uploads/'.$work['Work']['image'] ?>" alt="<?php echo $work["Work"]["title"]; ?>">
+                             <a href="<?php echo $this->base?>/Home/galeria">
+                                <h2><?php echo $work["Work"]["title"]; ?></h2>
                              </a>                             
-                             <h5><?php echo $work["Category"]["name"]; ?></h5>
+                             <h5><?php echo $work["Work"]["title"]; ?></h5>
                          </div>
                          <div class="singTestCont">
-                           <p><?php echo $work["Work"]["title"]; ?></p>
+                           <p><?php echo $work["Work"]["text"]; ?></p>
                          </div>
                      </div>
                  </div>                
