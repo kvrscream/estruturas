@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#00475B">
 
-    <meta name="description" content="A Unimetal é pioneira em construções metálicas. Trazendo alta qualidade em produtos como Estruturas Metálicas, Escadas, Guarda-Copos, Mezaninos, Coberturas e Telhados." />
+    <meta name="description" content="A Unimetal é pioneira em construções metálicas. Trazendo alta qualidade em produtos como Estruturas Metálicas, Escadas, Escadas de Emergência, Guarda-Corpos, Mezaninos, Coberturas e Telhados." />
 
-    <meta name="keywords" content="Estruturas Metálicas, Estruturas em Aço, Escadas, Guarda-Copos, Mezaninos, Mezaninos Metálicos, Coberturas, Telhados, Guarulhos" />
+    <meta name="keywords" content="Estruturas Metálicas, Estruturas em Aço, Escadas, Escadas de Emergência, Guarda-Corpos, Mezaninos, Mezaninos Metálicos, Coberturas, Telhados, Guarulhos" />
 
     <meta name="author" content="Felipe Botelho && Gilmar" />
     <meta name="robots" content="index, follow" />

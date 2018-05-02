@@ -8,7 +8,7 @@
                     <div class="bredCrumb">
                         <a href="<?php echo $this->base?>/Home/index">Home</a>
                             <span>/</span>
-                        <a href="#">Escadas e Guarda-Copos</a>
+                        <a href="#">Escadas de Emergência</a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-lg-6 col-sm-12 aboutConWrap noPaddingRight">
                 <div class="commonSectionTitleIn">
-                    <h2>Escadas e Guarda-Copos</h2>
+                    <h2>Escadas de Emergência</h2>
                 </div>
                 <div class="abCont">
                     <div class="peragroup">
@@ -33,13 +33,19 @@
                         As escadas metálicas de emergência, são peças fundamentais para a segurança das edificações. A utilização destas implica na proteção em áreas externas às edificações. Nestes casos, o revestimento intumescente, quando protegido por um top coat, é a alternativa mais recomendada para se proteger a parte estrutural da mesma.
                         Utilizando sempre o melhor material para a produção das escadas de incêndio, elas são escadas usinada e parafusada, degraus com chapa xadrez antiderrapante, guarda corpo feito com tubos redondos.
                         </p>
+                        <p>
+                            É indispensável que edifícios tenham esse tipo de estrutura pois é norma (NBR9077) e é exigido pelo corpo de bombeiros. 
+                        </p>
+                        <p>
+                            Confira com a Unimetal, garantimos a solução de especialista em seu projeto. 
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="abgroupImg">
                     <div class="compaabImg">
-                        <img alt="unimetal escadas e guarda-copos metálicos" src="<?php echo $this->base ?>/img/slider/escada.jpg" class="img-responsive">
+                        <img alt="unimetal projetos de escadas de emergência" src="<?php echo $this->base ?>/img/services/escada-incendio.jpg" class="img-responsive">
                     </div>
                 </div>
             </div>
@@ -50,7 +56,7 @@
     <div class="container">
         <div class="row"> 
             <div class="commonSectionTitleIn">
-                <h2>Obras Realizadas com Escadas e Guarda-Copos</h2>
+                <h2>Obras Realizadas com Escadas de Emergência</h2>
             </div>
             <div class="col-md-12">
                 <?php if(!empty($works)) { ?>

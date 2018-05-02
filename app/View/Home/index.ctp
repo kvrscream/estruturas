@@ -237,7 +237,7 @@
                     </div>
                     <?php } ?>
                 <?php } ?> -->
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="singleNews">
                         <div class="newsImg">
                             <img src="<?php echo $this->base.'/img/gallery/1.png'?>" alt="unimetal estruturas metálicas" class="img-responsive">
@@ -256,7 +256,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="singleNews">
                         <div class="newsImg">
                             <img src="<?php echo $this->base.'/img/news/news03.png'?>" alt="unimetal mezaninos" class="img-responsive">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="singleNews">
                         <div class="newsImg">
                             <img src="<?php echo $this->base.'/img/news/news04.png'?>" alt="unimetal escadas e escadas de emergência" class="img-responsive">
@@ -294,7 +294,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="singleNews">
                         <div class="newsImg">
                             <img src="<?php echo $this->base.'/img/news/news06.png'?>" alt="unimetal escadas e guarda-copos" class="img-responsive">
@@ -312,50 +312,57 @@
                     </div>
                 </div>
 
+                <div class="col-md-4">
+                    <div class="singleNews">
+                        <div class="newsImg">
+                            <img src="<?php echo $this->base.'/img/services/escada-metal-incendio.jpg'?>" alt="unimetal escadas e guarda-copos escadas de emergência" class="img-responsive">
+                        </div>
+                        <h2 class="newsTitle">
+                            <a href="#">Escadas de Emergência</a>
+                        </h2>
+                        <div class="newsDec">
+                            <p>
+                                Segundo a norma NBR9077 Escadas e saídas de emergência são obrigatórios.
+                                <br />
+                                A unimetal tem em mente a dificuldade que todos tem de encontrar empresas 
+                                que realizam esse tipo de projeto. Por isso nos especializamos em escadas de emergência.
+                            </p>
+                        </div>
+                        <a href="<?php echo $this->base?>/Escadas/emergencia" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="singleNews">
+                        <div class="newsImg">
+                            <img src="<?php echo $this->base.'/img/services/portao.jpg'?>" alt="unimetal portões" class="img-responsive">
+                        </div>
+                        <h2 class="newsTitle">
+                            <a href="#">Portões</a>
+                        </h2>
+                        <div class="newsDec">
+                            <p>
+                                A unimetal garante o melhor portão que seu projeto precisa e pode ter.
+                                <br />
+                                Com a melhor qualidade e menor preço do mercado.
+                                <ul>
+                                    <li>Basculantes</li>
+                                    <li>Deslizantes</li>
+                                    <li>Pivolante</li>
+                                    <li>Eletrônicos</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <a href="<?php echo $this->base?>/Portoes" class="newsBtn">Veja Mais <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
 <!--company feature End-->
-<!--our services start-->
-<!-- <section class="serviceSec1 bggray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-lg-offset-3 noPadding text-center">
-                <div class="commonSectionTitle">
-                    <h2>Produtos</h2>
-                    <p>
-                        A Unimetal desenvolve os melhores produtos como: Mezaninos metálicos, Estruturas Metálicas, Portões diversos, Escadas e Guarda-Copos com qualidade impecével
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row" id="sercarosel">
-            <?php if(!empty($works)){ ?>
-                <?php  foreach ($works as $work) { ?>
-                        <div class="col-sm-3 col-xs-12">
-                            <div class="singleNews">
-                                <div class="newsImg">
-                                    <img src="<?php echo $this->base.'/img/uploads/'.$works["Work"]["image"] ?>" alt="<?php echo $work["Work"]["title"] ?> unimetal Projetos" width="70" class="img-responsive">
-                                </div>
-                                <h2 class="newsTitle">
-                                    <a href="#"><?php echo $work["Work"]["title"] ?></a>
-                                </h2>
-                                <div class="newsDec">
-                                    <p>
-                                        <?php echo substr($work["Work"]["text"],0,100) ?>
-                                        </br>&nbsp;
-                                    </p>
-                                </div>
-                                <a href="#" class="newsBtn">veja mais <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                <?php } ?>
-            <?php } ?>
-        </div>
-    </div>
-</section> -->
-<!--our services End-->
+
 <!--about company start-->
 <section class="compAboutSec">
     <div class="container">
@@ -420,129 +427,6 @@
  </section>
  <!--Testomonial2 End-->
 
-<!--Testomonial2 start-->
-<!--
-<section class="testomonial2">
-    <div class="container">
-        <div class="row test2head">
-            <div class="col-lg-6">
-                <div class="commonSectionTitleIn white">
-                    <h2>Obras Realizadas</h2>
-                </div>
-            </div>
-            <div class="col-lg-6 text-right">
-                <div class="testmArrow">
-                    <a class="slidePrev" href="#"><i class="fa fa-angle-left"></i></a>
-                    <a class="slideNext" href="#"><i class="fa fa-angle-right"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="testmH3Carowsel">
-                <?php if(!empty($works)){ ?>
-                <?php  foreach ($works as $work) { ?>
-                <div class="col-lg-12 text-center">
-                    <div class="singleTest">
-                        <p>
-                            <?php echo substr($work["Work"]["text"],0,100); ?>
-                        </p>
-                        <div class="testDeg">
-                            <h2><?php echo $work["Category"]["name"]; ?></h2>
-                            <a href="<?php echo $this->base.'/works/obras/'.$product['Product']['category_id'] ?>">
-                                <p><?php echo $work["Work"]["title"]; ?></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <?php } ?>
-                <?php } ?>
-            </div>
-        </div>
-    </div>
-</section>
--->
-<!--Testomonial2 End-->
-<!--news start-->
-<!--<section class="news4Sec bggray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="singlenews3">
-                    <div class="singnew2Img">
-                        <img alt="" src="<?php echo $this->base ?>/img/news/4.jpg">
-                    </div>
-                    <div class="newdate">
-                        <h2>28</h2>
-                        <h3>april</h3>
-                    </div>
-                    <div class="newscontWr">
-                        <h2 class="newsTitleupp"><a href="#">maritime transportation</a></h2>
-                        <div class="news2Cont">
-                            <p>
-                                Aliquam quis lobortis lorem, quis malesuada velit. Praesent pharetra eget arcu et tempus.
-                                Ut diam lorem, porttitor at imperdiet amet, pellentesque egestas lectus donec condimentum.
-                            </p>
-                        </div>
-                        <div class="news2meta1">
-                            By<a href="#">Alberto Brando</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="singlenews3">
-                    <div class="singnew2Img">
-                        <img alt="" src="<?php echo $this->base ?>/img/news/h3n1.jpg">
-                    </div>
-                    <div class="newdate">
-                        <h2>28</h2>
-                        <h3>april</h3>
-                    </div>
-                    <div class="newscontWr">
-                        <h2 class="newsTitleupp"><a href="#">maritime transportation</a></h2>
-                        <div class="news2Cont">
-                            <p>
-                                Aliquam quis lobortis lorem, quis malesuada velit. Praesent pharetra eget arcu et tempus.
-                                Ut diam lorem, porttitor at imperdiet amet, pellentesque egestas lectus donec condimentum.
-                            </p>
-                        </div>
-                        <div class="news2meta1">
-                            By<a href="#">Alberto Brando</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="singlenews3">
-                    <div class="singnew2Img">
-                        <img alt="" src="<?php echo $this->base ?>/img/news/5.jpg">
-                    </div>
-                    <div class="newdate">
-                        <h2>28</h2>
-                        <h3>april</h3>
-                    </div>
-                    <div class="newscontWr">
-                        <h2 class="newsTitleupp"><a href="#">Safe and Security Delivery</a></h2>
-                        <div class="news2Cont">
-                            <p>
-                                Aliquam quis lobortis lorem, quis malesuada velit. Praesent pharetra eget arcu et tempus.
-                                Ut diam lorem, porttitor at imperdiet amet, pellentesque egestas lectus donec condimentum.
-                            </p>
-                        </div>
-                        <div class="news2meta1">
-                            By<a href="#">Alberto Brando</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="loadmoreBtnNews text-center">
-                <a href="#">load more</a>
-            </div>
-        </div>
-    </div>
-</section>-->
-<!--news End-->
 <!--Client Start-->
 <section class="ourpartners bggray">
     <div class="container">
